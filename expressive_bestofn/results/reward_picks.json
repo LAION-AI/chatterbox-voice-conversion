@@ -1,0 +1,834 @@
+{
+  "p_emolia_c0542__emolia_c0542__E__Affection__A__en": {
+    "raw": {
+      "i": 14,
+      "reward": -0.2983,
+      "peak": 1.9502,
+      "overall": 2.9473,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 14,
+      "reward": -0.7518,
+      "peak": 1.8633,
+      "overall": 2.959,
+      "peak_emo": "Impatience_and_Irritability"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Amusement__A__en": {
+    "raw": {
+      "i": 18,
+      "reward": 1.8083,
+      "peak": 2.166,
+      "overall": 3.2188,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 23,
+      "reward": 1.5617,
+      "peak": 2.1836,
+      "overall": 3.2305,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Anger__A__en": {
+    "raw": {
+      "i": 7,
+      "reward": 1.4558,
+      "peak": 2.416,
+      "overall": 3.0723,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 16,
+      "reward": 0.8687,
+      "peak": 2.3223,
+      "overall": 3.0781,
+      "peak_emo": "Impatience_and_Irritability"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Astonishment_Surprise__A__en": {
+    "raw": {
+      "i": 19,
+      "reward": 1.5784,
+      "peak": 2.291,
+      "overall": 3.1367,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 26,
+      "reward": 2.0579,
+      "peak": 2.709,
+      "overall": 3.1504,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Awe__A__en": {
+    "raw": {
+      "i": 17,
+      "reward": -0.8256,
+      "peak": 1.9141,
+      "overall": 2.873,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 28,
+      "reward": -1.2025,
+      "peak": 1.8135,
+      "overall": 2.9023,
+      "peak_emo": "Impatience_and_Irritability"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Bitterness__A__en": {
+    "raw": {
+      "i": 10,
+      "reward": -1.8373,
+      "peak": 1.8779,
+      "overall": 2.7188,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 13,
+      "reward": -2.1173,
+      "peak": 1.6094,
+      "overall": 2.8184,
+      "peak_emo": "Anger"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Concentration__A__en": {
+    "raw": {
+      "i": 28,
+      "reward": 1.1673,
+      "peak": 2.0547,
+      "overall": 3.1523,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 14,
+      "reward": 0.6337,
+      "peak": 1.96,
+      "overall": 3.1504,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Confusion__A__en": {
+    "raw": {
+      "i": 5,
+      "reward": 1.9665,
+      "peak": 2.3008,
+      "overall": 3.1973,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 28,
+      "reward": 1.4486,
+      "peak": 2.3242,
+      "overall": 3.1699,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Contemplation__A__en": {
+    "raw": {
+      "i": 3,
+      "reward": -1.3169,
+      "peak": 1.1758,
+      "overall": 3.0527,
+      "peak_emo": "Concentration"
+    },
+    "sidon": {
+      "i": 14,
+      "reward": 0.1724,
+      "peak": 1.9561,
+      "overall": 3.0781,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Contempt__A__en": {
+    "raw": {
+      "i": 21,
+      "reward": 0.2423,
+      "peak": 2.0703,
+      "overall": 2.9941,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 27,
+      "reward": -0.3977,
+      "peak": 1.998,
+      "overall": 2.9746,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Contentment__A__en": {
+    "raw": {
+      "i": 28,
+      "reward": -0.7711,
+      "peak": 1.9727,
+      "overall": 2.8613,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 28,
+      "reward": -0.7374,
+      "peak": 1.9805,
+      "overall": 2.9258,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Disappointment__A__en": {
+    "raw": {
+      "i": 9,
+      "reward": -3.252,
+      "peak": 1.2666,
+      "overall": 2.7012,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 21,
+      "reward": -3.4987,
+      "peak": 1.1797,
+      "overall": 2.7285,
+      "peak_emo": "Sourness"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Disgust__A__en": {
+    "raw": {
+      "i": 22,
+      "reward": -0.3491,
+      "peak": 2.1699,
+      "overall": 2.8613,
+      "peak_emo": "Disgust"
+    },
+    "sidon": {
+      "i": 26,
+      "reward": 1.3786,
+      "peak": 3.0352,
+      "overall": 2.9434,
+      "peak_emo": "Disgust"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Distress__A__en": {
+    "raw": {
+      "i": 12,
+      "reward": -0.0969,
+      "peak": 2.2988,
+      "overall": 2.8574,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 14,
+      "reward": 0.9256,
+      "peak": 2.623,
+      "overall": 2.9961,
+      "peak_emo": "Disgust"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Doubt__A__en": {
+    "raw": {
+      "i": 18,
+      "reward": -1.5024,
+      "peak": 1.7139,
+      "overall": 2.832,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 18,
+      "reward": -1.8222,
+      "peak": 1.7197,
+      "overall": 2.832,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Elation__A__en": {
+    "raw": {
+      "i": 1,
+      "reward": 1.7809,
+      "peak": 2.7559,
+      "overall": 3.0059,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 25,
+      "reward": 2.301,
+      "peak": 2.9336,
+      "overall": 3.1211,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Embarrassment__A__en": {
+    "raw": {
+      "i": 23,
+      "reward": 0.411,
+      "peak": 1.502,
+      "overall": 3.2227,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 6,
+      "reward": 0.3224,
+      "peak": 1.4932,
+      "overall": 3.2422,
+      "peak_emo": "Fatigue_Exhaustion"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Emotional_Numbness__A__en": {
+    "raw": {
+      "i": 27,
+      "reward": -2.0192,
+      "peak": 1.3838,
+      "overall": 2.8633,
+      "peak_emo": "Sadness"
+    },
+    "sidon": {
+      "i": 17,
+      "reward": -2.399,
+      "peak": 1.3711,
+      "overall": 2.8457,
+      "peak_emo": "Sadness"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Fatigue_Exhaustion__A__en": {
+    "raw": {
+      "i": 27,
+      "reward": 2.6853,
+      "peak": 2.6367,
+      "overall": 3.1973,
+      "peak_emo": "Fatigue_Exhaustion"
+    },
+    "sidon": {
+      "i": 14,
+      "reward": 2.3092,
+      "peak": 2.6992,
+      "overall": 3.1934,
+      "peak_emo": "Fatigue_Exhaustion"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Fear__A__en": {
+    "raw": {
+      "i": 23,
+      "reward": -0.1366,
+      "peak": 1.6719,
+      "overall": 3.0723,
+      "peak_emo": "Fear"
+    },
+    "sidon": {
+      "i": 16,
+      "reward": 1.9307,
+      "peak": 2.584,
+      "overall": 3.168,
+      "peak_emo": "Thankfulness_Gratitude"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Helplessness__A__en": {
+    "raw": {
+      "i": 7,
+      "reward": 0.7538,
+      "peak": 2.0605,
+      "overall": 3.082,
+      "peak_emo": "Distress"
+    },
+    "sidon": {
+      "i": 0,
+      "reward": 1.4183,
+      "peak": 2.334,
+      "overall": 3.1621,
+      "peak_emo": "Elation"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Hope_Enthusiasm_Optimism__A__en": {
+    "raw": {
+      "i": 19,
+      "reward": -0.3577,
+      "peak": 2.293,
+      "overall": 2.8164,
+      "peak_emo": "Hope_Enthusiasm_Optimism"
+    },
+    "sidon": {
+      "i": 30,
+      "reward": -0.8164,
+      "peak": 2.0938,
+      "overall": 2.8789,
+      "peak_emo": "Hope_Enthusiasm_Optimism"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Impatience_and_Irritability__A__en": {
+    "raw": {
+      "i": 25,
+      "reward": -2.0316,
+      "peak": 1.2676,
+      "overall": 2.9023,
+      "peak_emo": "Sourness"
+    },
+    "sidon": {
+      "i": 2,
+      "reward": -2.5562,
+      "peak": 1.2432,
+      "overall": 2.8594,
+      "peak_emo": "Sourness"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Infatuation__A__en": {
+    "raw": {
+      "i": 12,
+      "reward": -0.4067,
+      "peak": 1.4961,
+      "overall": 3.0898,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 31,
+      "reward": -0.9755,
+      "peak": 1.4297,
+      "overall": 3.0547,
+      "peak_emo": "Impatience_and_Irritability"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Interest__A__en": {
+    "raw": {
+      "i": 12,
+      "reward": -1.6031,
+      "peak": 1.3682,
+      "overall": 2.9375,
+      "peak_emo": "Hope_Enthusiasm_Optimism"
+    },
+    "sidon": {
+      "i": 23,
+      "reward": -0.5564,
+      "peak": 1.6953,
+      "overall": 3.041,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Intoxication_Altered_States_of_Consciousness__A__en": {
+    "raw": {
+      "i": 31,
+      "reward": -0.4493,
+      "peak": 2.1562,
+      "overall": 2.8496,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 31,
+      "reward": -1.1275,
+      "peak": 2.0332,
+      "overall": 2.8477,
+      "peak_emo": "Impatience_and_Irritability"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Jealousy_and_Envy__A__en": {
+    "raw": {
+      "i": 21,
+      "reward": 0.331,
+      "peak": 1.9238,
+      "overall": 3.0605,
+      "peak_emo": "Relief"
+    },
+    "sidon": {
+      "i": 20,
+      "reward": 1.5259,
+      "peak": 2.3906,
+      "overall": 3.1621,
+      "peak_emo": "Relief"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Longing__A__en": {
+    "raw": {
+      "i": 0,
+      "reward": -1.1162,
+      "peak": 1.7285,
+      "overall": 2.8906,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 0,
+      "reward": -1.3905,
+      "peak": 1.6436,
+      "overall": 2.9238,
+      "peak_emo": "Impatience_and_Irritability"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Malevolence_Malice__A__en": {
+    "raw": {
+      "i": 9,
+      "reward": 0.4572,
+      "peak": 1.9219,
+      "overall": 3.082,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 9,
+      "reward": 0.3553,
+      "peak": 2.0137,
+      "overall": 3.0898,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Pain__A__en": {
+    "raw": {
+      "i": 0,
+      "reward": -1.956,
+      "peak": 1.9883,
+      "overall": 2.6602,
+      "peak_emo": "Pain"
+    },
+    "sidon": {
+      "i": 26,
+      "reward": -2.3113,
+      "peak": 2.0234,
+      "overall": 2.6621,
+      "peak_emo": "Pain"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Pleasure_Ecstasy__A__en": {
+    "raw": {
+      "i": 2,
+      "reward": 0.8671,
+      "peak": 2.7051,
+      "overall": 2.873,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 7,
+      "reward": 0.4133,
+      "peak": 2.6953,
+      "overall": 2.8926,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Pride__A__en": {
+    "raw": {
+      "i": 1,
+      "reward": 1.4373,
+      "peak": 1.8545,
+      "overall": 3.2676,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 16,
+      "reward": 2.055,
+      "peak": 2.4688,
+      "overall": 3.2227,
+      "peak_emo": "Relief"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Relief__A__en": {
+    "raw": {
+      "i": 25,
+      "reward": -0.8776,
+      "peak": 2.0059,
+      "overall": 2.832,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 21,
+      "reward": -0.8745,
+      "peak": 1.8955,
+      "overall": 2.9297,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Sadness__A__en": {
+    "raw": {
+      "i": 2,
+      "reward": 0.7616,
+      "peak": 1.8926,
+      "overall": 3.1426,
+      "peak_emo": "Sadness"
+    },
+    "sidon": {
+      "i": 24,
+      "reward": 2.2815,
+      "peak": 2.543,
+      "overall": 3.2363,
+      "peak_emo": "Sadness"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Sexual_Lust__A__en": {
+    "raw": {
+      "i": 1,
+      "reward": 2.5994,
+      "peak": 3.0059,
+      "overall": 3.0527,
+      "peak_emo": "Hope_Enthusiasm_Optimism"
+    },
+    "sidon": {
+      "i": 8,
+      "reward": 1.9508,
+      "peak": 2.8848,
+      "overall": 3.0801,
+      "peak_emo": "Hope_Enthusiasm_Optimism"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Shame__A__en": {
+    "raw": {
+      "i": 1,
+      "reward": 0.0093,
+      "peak": 1.917,
+      "overall": 3.0098,
+      "peak_emo": "Shame"
+    },
+    "sidon": {
+      "i": 21,
+      "reward": -0.4074,
+      "peak": 1.9863,
+      "overall": 2.9766,
+      "peak_emo": "Amusement"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Sourness__A__en": {
+    "raw": {
+      "i": 18,
+      "reward": -0.2571,
+      "peak": 1.7373,
+      "overall": 3.0293,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 13,
+      "reward": -0.5404,
+      "peak": 1.7295,
+      "overall": 3.0332,
+      "peak_emo": "Disgust"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Teasing__A__en": {
+    "raw": {
+      "i": 23,
+      "reward": -0.1079,
+      "peak": 2.0117,
+      "overall": 2.957,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 24,
+      "reward": -0.4241,
+      "peak": 1.8164,
+      "overall": 3.0254,
+      "peak_emo": "Thankfulness_Gratitude"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Thankfulness_Gratitude__A__en": {
+    "raw": {
+      "i": 14,
+      "reward": 2.5756,
+      "peak": 3.2988,
+      "overall": 2.9453,
+      "peak_emo": "Thankfulness_Gratitude"
+    },
+    "sidon": {
+      "i": 27,
+      "reward": 2.7102,
+      "peak": 3.4004,
+      "overall": 3.0449,
+      "peak_emo": "Thankfulness_Gratitude"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__E__Triumph__A__en": {
+    "raw": {
+      "i": 22,
+      "reward": 1.2523,
+      "peak": 2.4316,
+      "overall": 3.0332,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 22,
+      "reward": 1.1182,
+      "peak": 2.4727,
+      "overall": 3.0723,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__amused_laughter__en": {
+    "raw": {
+      "i": 2,
+      "reward": -1.9311,
+      "peak": 1.3975,
+      "overall": 2.873,
+      "peak_emo": "Amusement"
+    },
+    "sidon": {
+      "i": 3,
+      "reward": 0.7423,
+      "peak": 2.5137,
+      "overall": 3.0,
+      "peak_emo": "Disgust"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__cold_shiver__en": {
+    "raw": {
+      "i": 31,
+      "reward": 1.0246,
+      "peak": 1.8496,
+      "overall": 3.2012,
+      "peak_emo": "Affection"
+    },
+    "sidon": {
+      "i": 31,
+      "reward": 1.9397,
+      "peak": 2.0859,
+      "overall": 3.3203,
+      "peak_emo": "Affection"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__fear_scream__en": {
+    "raw": {
+      "i": 16,
+      "reward": 1.1057,
+      "peak": 2.1641,
+      "overall": 3.1035,
+      "peak_emo": "Fear"
+    },
+    "sidon": {
+      "i": 6,
+      "reward": 2.444,
+      "peak": 2.8477,
+      "overall": 3.1699,
+      "peak_emo": "Fear"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__ga_amuse_laugh__en": {
+    "raw": {
+      "i": 17,
+      "reward": 2.0391,
+      "peak": 2.0859,
+      "overall": 3.2852,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 11,
+      "reward": 2.0262,
+      "peak": 2.2539,
+      "overall": 3.2832,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__ga_fear_scream__en": {
+    "raw": {
+      "i": 21,
+      "reward": 1.1236,
+      "peak": 1.7246,
+      "overall": 3.2617,
+      "peak_emo": "Amusement"
+    },
+    "sidon": {
+      "i": 3,
+      "reward": 1.4004,
+      "peak": 2.0859,
+      "overall": 3.2344,
+      "peak_emo": "Longing"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__ga_pain_scream__en": {
+    "raw": {
+      "i": 30,
+      "reward": 2.1354,
+      "peak": 2.3633,
+      "overall": 3.2031,
+      "peak_emo": "Interest"
+    },
+    "sidon": {
+      "i": 10,
+      "reward": 1.4846,
+      "peak": 2.498,
+      "overall": 3.123,
+      "peak_emo": "Interest"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__ga_sad_cry__en": {
+    "raw": {
+      "i": 25,
+      "reward": 0.5589,
+      "peak": 2.1738,
+      "overall": 3.0098,
+      "peak_emo": "Sadness"
+    },
+    "sidon": {
+      "i": 4,
+      "reward": 0.9125,
+      "peak": 2.3516,
+      "overall": 3.0762,
+      "peak_emo": "Sadness"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__pain_groan__en": {
+    "raw": {
+      "i": 17,
+      "reward": 2.2493,
+      "peak": 2.1289,
+      "overall": 3.3047,
+      "peak_emo": "Fatigue_Exhaustion"
+    },
+    "sidon": {
+      "i": 22,
+      "reward": 2.7725,
+      "peak": 2.582,
+      "overall": 3.3027,
+      "peak_emo": "Fatigue_Exhaustion"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__pain_scream__en": {
+    "raw": {
+      "i": 14,
+      "reward": 4.077,
+      "peak": 3.3867,
+      "overall": 3.1621,
+      "peak_emo": "Distress"
+    },
+    "sidon": {
+      "i": 20,
+      "reward": 4.3114,
+      "peak": 3.6426,
+      "overall": 3.2266,
+      "peak_emo": "Distress"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__sad_crying__en": {
+    "raw": {
+      "i": 17,
+      "reward": -0.6075,
+      "peak": 1.8555,
+      "overall": 2.9297,
+      "peak_emo": "Impatience_and_Irritability"
+    },
+    "sidon": {
+      "i": 13,
+      "reward": -0.4022,
+      "peak": 1.8408,
+      "overall": 3.0215,
+      "peak_emo": "Sadness"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__tears__en": {
+    "raw": {
+      "i": 10,
+      "reward": 3.1448,
+      "peak": 2.3594,
+      "overall": 3.3711,
+      "peak_emo": "Distress"
+    },
+    "sidon": {
+      "i": 1,
+      "reward": 2.2057,
+      "peak": 2.2773,
+      "overall": 3.3047,
+      "peak_emo": "Fatigue_Exhaustion"
+    }
+  },
+  "p_emolia_c0542__emolia_c0542__X__whimpering__en": {
+    "raw": {
+      "i": 23,
+      "reward": 3.2042,
+      "peak": 2.7852,
+      "overall": 3.2305,
+      "peak_emo": "Distress"
+    },
+    "sidon": {
+      "i": 15,
+      "reward": 3.4635,
+      "peak": 3.2871,
+      "overall": 3.1992,
+      "peak_emo": "Distress"
+    }
+  }
+}

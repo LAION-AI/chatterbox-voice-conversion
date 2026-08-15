@@ -1,0 +1,482 @@
+[
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 20,
+    "reward": 4.311432838657351,
+    "peak": 3.6426,
+    "overall": 3.2266,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 1,
+    "reward": 4.29347115526962,
+    "peak": 3.6074,
+    "overall": 3.2344,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 26,
+    "reward": 4.287627929714493,
+    "peak": 3.5723,
+    "overall": 3.2441,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 27,
+    "reward": 4.280205194073848,
+    "peak": 3.6133,
+    "overall": 3.2305,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 29,
+    "reward": 4.2225205273760045,
+    "peak": 3.6348,
+    "overall": 3.2148,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 14,
+    "reward": 4.218642754809968,
+    "peak": 3.5938,
+    "overall": 3.2266,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 6,
+    "reward": 4.218045264259657,
+    "peak": 3.6582,
+    "overall": 3.207,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 18,
+    "reward": 4.1881552666537605,
+    "peak": 3.623,
+    "overall": 3.2129,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 22,
+    "reward": 4.186810484998718,
+    "peak": 3.6738,
+    "overall": 3.1973,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 2,
+    "reward": 4.185214928806895,
+    "peak": 3.5957,
+    "overall": 3.2207,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 7,
+    "reward": 4.180067274863026,
+    "peak": 3.6445,
+    "overall": 3.2051,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 23,
+    "reward": 4.174216914630468,
+    "peak": 3.6543,
+    "overall": 3.2012,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 4,
+    "reward": 4.1185048355991505,
+    "peak": 3.625,
+    "overall": 3.2012,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 5,
+    "reward": 4.095334867345208,
+    "peak": 3.5098,
+    "overall": 3.2324,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 9,
+    "reward": 4.092197251206467,
+    "peak": 3.5273,
+    "overall": 3.2266,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 30,
+    "reward": 4.07024580766965,
+    "peak": 3.6191,
+    "overall": 3.1953,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 13,
+    "reward": 4.070208357531046,
+    "peak": 3.5996,
+    "overall": 3.2012,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 0,
+    "reward": 4.0643651319759195,
+    "peak": 3.5645,
+    "overall": 3.2109,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 19,
+    "reward": 4.047703645427189,
+    "peak": 3.5039,
+    "overall": 3.2266,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 11,
+    "reward": 4.036070690561846,
+    "peak": 3.6074,
+    "overall": 3.1934,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 28,
+    "reward": 4.0102486091364264,
+    "peak": 3.6133,
+    "overall": 3.1875,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 25,
+    "reward": 3.996762188865042,
+    "peak": 3.5547,
+    "overall": 3.2031,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 24,
+    "reward": 3.995869338961908,
+    "peak": 3.5156,
+    "overall": 3.2148,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 16,
+    "reward": 3.984198933957961,
+    "peak": 3.5996,
+    "overall": 3.1875,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 21,
+    "reward": 3.9597144995101496,
+    "peak": 3.5996,
+    "overall": 3.1836,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 31,
+    "reward": 3.940150125253158,
+    "peak": 3.5312,
+    "overall": 3.2012,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 12,
+    "reward": 3.938360546523641,
+    "peak": 3.627,
+    "overall": 3.1719,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 8,
+    "reward": 3.9239812763491235,
+    "peak": 3.5293,
+    "overall": 3.1992,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 17,
+    "reward": 3.914993299977823,
+    "peak": 3.5566,
+    "overall": 3.1895,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 15,
+    "reward": 3.8669618658013714,
+    "peak": 3.5703,
+    "overall": 3.1777,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 3,
+    "reward": 3.8311911925017417,
+    "peak": 3.4805,
+    "overall": 3.1992,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_scream__en",
+    "i": 10,
+    "reward": 3.7844599551642912,
+    "peak": 3.4688,
+    "overall": 3.1953,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 15,
+    "reward": 3.463453442172158,
+    "peak": 3.2871,
+    "overall": 3.1992,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 12,
+    "reward": 3.4257404966671796,
+    "peak": 3.3125,
+    "overall": 3.1855,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 22,
+    "reward": 3.272467711319311,
+    "peak": 3.1543,
+    "overall": 3.209,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 31,
+    "reward": 3.271832770630394,
+    "peak": 3.1992,
+    "overall": 3.1953,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 21,
+    "reward": 3.2415354260886264,
+    "peak": 3.2285,
+    "overall": 3.1816,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 17,
+    "reward": 3.194094347785051,
+    "peak": 3.2227,
+    "overall": 3.1758,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 25,
+    "reward": 3.133241749487297,
+    "peak": 3.1973,
+    "overall": 3.1738,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 27,
+    "reward": 3.0928766908108405,
+    "peak": 3.3438,
+    "overall": 3.123,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 13,
+    "reward": 3.0102149520204904,
+    "peak": 3.3066,
+    "overall": 3.1211,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 24,
+    "reward": 2.9631580398690467,
+    "peak": 3.127,
+    "overall": 3.168,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 5,
+    "reward": 2.8942548999191646,
+    "peak": 3.1426,
+    "overall": 3.1523,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 22,
+    "reward": 2.772530038630412,
+    "peak": 2.582,
+    "overall": 3.3027,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 7,
+    "reward": 2.7621669651428986,
+    "peak": 2.5957,
+    "overall": 3.2969,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__whimpering__en",
+    "i": 8,
+    "reward": 2.742873030115944,
+    "peak": 3.166,
+    "overall": 3.1211,
+    "peak_emo": "Distress"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__E__Thankfulness_Gratitude__A__en",
+    "i": 27,
+    "reward": 2.710181481616914,
+    "peak": 3.4004,
+    "overall": 3.0449,
+    "peak_emo": "Thankfulness_Gratitude"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__E__Thankfulness_Gratitude__A__en",
+    "i": 11,
+    "reward": 2.7027961961148703,
+    "peak": 3.4609,
+    "overall": 3.0254,
+    "peak_emo": "Thankfulness_Gratitude"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 27,
+    "reward": 2.6790675639555097,
+    "peak": 2.5586,
+    "overall": 3.2949,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 2,
+    "reward": 2.660949308168689,
+    "peak": 2.7168,
+    "overall": 3.2441,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 1,
+    "reward": 2.65387328854157,
+    "peak": 2.5645,
+    "overall": 3.2891,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 21,
+    "reward": 2.6500775509301784,
+    "peak": 2.5176,
+    "overall": 3.3027,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__E__Thankfulness_Gratitude__A__en",
+    "i": 16,
+    "reward": 2.6422015070313365,
+    "peak": 3.5195,
+    "overall": 2.998,
+    "peak_emo": "Thankfulness_Gratitude"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 18,
+    "reward": 2.6262583726324533,
+    "peak": 2.5371,
+    "overall": 3.293,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__E__Thankfulness_Gratitude__A__en",
+    "i": 28,
+    "reward": 2.624164923366393,
+    "peak": 3.4453,
+    "overall": 3.0176,
+    "peak_emo": "Thankfulness_Gratitude"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 5,
+    "reward": 2.606286651439591,
+    "peak": 2.5332,
+    "overall": 3.291,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 19,
+    "reward": 2.604011569742814,
+    "peak": 2.5254,
+    "overall": 3.293,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 25,
+    "reward": 2.600881088281508,
+    "peak": 2.498,
+    "overall": 3.3008,
+    "peak_emo": "Fatigue_Exhaustion"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__E__Thankfulness_Gratitude__A__en",
+    "i": 19,
+    "reward": 2.5922720226328018,
+    "peak": 3.3965,
+    "overall": 3.0273,
+    "peak_emo": "Thankfulness_Gratitude"
+  },
+  {
+    "id": "p_emolia_c0542__emolia_c0542__X__pain_groan__en",
+    "i": 28,
+    "reward": 2.5818396671303843,
+    "peak": 2.5527,
+    "overall": 3.2812,
+    "peak_emo": "Fatigue_Exhaustion"
+  }
+]

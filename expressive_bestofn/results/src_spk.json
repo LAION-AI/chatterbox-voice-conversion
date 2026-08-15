@@ -1,0 +1,210 @@
+{
+  "p_emolia_c0542__emolia_c0542__E__Affection__A__en": {
+    "ecapa": 0.5262,
+    "orange": 0.7422
+  },
+  "p_emolia_c0542__emolia_c0542__E__Amusement__A__en": {
+    "ecapa": 0.4483,
+    "orange": 0.651
+  },
+  "p_emolia_c0542__emolia_c0542__E__Anger__A__en": {
+    "ecapa": 0.4594,
+    "orange": 0.6259
+  },
+  "p_emolia_c0542__emolia_c0542__E__Astonishment_Surprise__A__en": {
+    "ecapa": 0.4564,
+    "orange": 0.6681
+  },
+  "p_emolia_c0542__emolia_c0542__E__Awe__A__en": {
+    "ecapa": 0.4947,
+    "orange": 0.6266
+  },
+  "p_emolia_c0542__emolia_c0542__E__Bitterness__A__en": {
+    "ecapa": 0.6162,
+    "orange": 0.6639
+  },
+  "p_emolia_c0542__emolia_c0542__E__Concentration__A__en": {
+    "ecapa": 0.5329,
+    "orange": 0.7184
+  },
+  "p_emolia_c0542__emolia_c0542__E__Confusion__A__en": {
+    "ecapa": 0.5106,
+    "orange": 0.7044
+  },
+  "p_emolia_c0542__emolia_c0542__E__Contemplation__A__en": {
+    "ecapa": 0.3635,
+    "orange": 0.5259
+  },
+  "p_emolia_c0542__emolia_c0542__E__Contempt__A__en": {
+    "ecapa": 0.422,
+    "orange": 0.7215
+  },
+  "p_emolia_c0542__emolia_c0542__E__Contentment__A__en": {
+    "ecapa": 0.5086,
+    "orange": 0.7693
+  },
+  "p_emolia_c0542__emolia_c0542__E__Disappointment__A__en": {
+    "ecapa": 0.4464,
+    "orange": 0.6433
+  },
+  "p_emolia_c0542__emolia_c0542__E__Disgust__A__en": {
+    "ecapa": 0.461,
+    "orange": 0.7098
+  },
+  "p_emolia_c0542__emolia_c0542__E__Distress__A__en": {
+    "ecapa": 0.5333,
+    "orange": 0.78
+  },
+  "p_emolia_c0542__emolia_c0542__E__Doubt__A__en": {
+    "ecapa": 0.4464,
+    "orange": 0.7097
+  },
+  "p_emolia_c0542__emolia_c0542__E__Elation__A__en": {
+    "ecapa": 0.403,
+    "orange": 0.6324
+  },
+  "p_emolia_c0542__emolia_c0542__E__Embarrassment__A__en": {
+    "ecapa": 0.41,
+    "orange": 0.5896
+  },
+  "p_emolia_c0542__emolia_c0542__E__Emotional_Numbness__A__en": {
+    "ecapa": 0.5305,
+    "orange": 0.7358
+  },
+  "p_emolia_c0542__emolia_c0542__E__Fatigue_Exhaustion__A__en": {
+    "ecapa": 0.4625,
+    "orange": 0.5982
+  },
+  "p_emolia_c0542__emolia_c0542__E__Fear__A__en": {
+    "ecapa": 0.4983,
+    "orange": 0.6959
+  },
+  "p_emolia_c0542__emolia_c0542__E__Helplessness__A__en": {
+    "ecapa": 0.4959,
+    "orange": 0.6943
+  },
+  "p_emolia_c0542__emolia_c0542__E__Hope_Enthusiasm_Optimism__A__en": {
+    "ecapa": 0.4616,
+    "orange": 0.5661
+  },
+  "p_emolia_c0542__emolia_c0542__E__Impatience_and_Irritability__A__en": {
+    "ecapa": 0.5028,
+    "orange": 0.6793
+  },
+  "p_emolia_c0542__emolia_c0542__E__Infatuation__A__en": {
+    "ecapa": 0.4232,
+    "orange": 0.5934
+  },
+  "p_emolia_c0542__emolia_c0542__E__Interest__A__en": {
+    "ecapa": 0.5387,
+    "orange": 0.7539
+  },
+  "p_emolia_c0542__emolia_c0542__E__Intoxication_Altered_States_of_Consciousness__A__en": {
+    "ecapa": 0.4845,
+    "orange": 0.6789
+  },
+  "p_emolia_c0542__emolia_c0542__E__Jealousy_and_Envy__A__en": {
+    "ecapa": 0.5353,
+    "orange": 0.6731
+  },
+  "p_emolia_c0542__emolia_c0542__E__Longing__A__en": {
+    "ecapa": 0.4381,
+    "orange": 0.6278
+  },
+  "p_emolia_c0542__emolia_c0542__E__Malevolence_Malice__A__en": {
+    "ecapa": 0.4539,
+    "orange": 0.7302
+  },
+  "p_emolia_c0542__emolia_c0542__E__Pain__A__en": {
+    "ecapa": 0.4519,
+    "orange": 0.7689
+  },
+  "p_emolia_c0542__emolia_c0542__E__Pleasure_Ecstasy__A__en": {
+    "ecapa": 0.4891,
+    "orange": 0.6965
+  },
+  "p_emolia_c0542__emolia_c0542__E__Pride__A__en": {
+    "ecapa": 0.4445,
+    "orange": 0.7047
+  },
+  "p_emolia_c0542__emolia_c0542__E__Relief__A__en": {
+    "ecapa": 0.4058,
+    "orange": 0.6522
+  },
+  "p_emolia_c0542__emolia_c0542__E__Sadness__A__en": {
+    "ecapa": 0.4245,
+    "orange": 0.6613
+  },
+  "p_emolia_c0542__emolia_c0542__E__Sexual_Lust__A__en": {
+    "ecapa": 0.5047,
+    "orange": 0.7448
+  },
+  "p_emolia_c0542__emolia_c0542__E__Shame__A__en": {
+    "ecapa": 0.5009,
+    "orange": 0.6811
+  },
+  "p_emolia_c0542__emolia_c0542__E__Sourness__A__en": {
+    "ecapa": 0.4979,
+    "orange": 0.6637
+  },
+  "p_emolia_c0542__emolia_c0542__E__Teasing__A__en": {
+    "ecapa": 0.4467,
+    "orange": 0.7246
+  },
+  "p_emolia_c0542__emolia_c0542__E__Thankfulness_Gratitude__A__en": {
+    "ecapa": 0.506,
+    "orange": 0.6687
+  },
+  "p_emolia_c0542__emolia_c0542__E__Triumph__A__en": {
+    "ecapa": 0.5086,
+    "orange": 0.709
+  },
+  "p_emolia_c0542__emolia_c0542__X__amused_laughter__en": {
+    "ecapa": 0.4046,
+    "orange": 0.7556
+  },
+  "p_emolia_c0542__emolia_c0542__X__cold_shiver__en": {
+    "ecapa": 0.5843,
+    "orange": 0.8026
+  },
+  "p_emolia_c0542__emolia_c0542__X__fear_scream__en": {
+    "ecapa": 0.4963,
+    "orange": 0.793
+  },
+  "p_emolia_c0542__emolia_c0542__X__ga_amuse_laugh__en": {
+    "ecapa": 0.4921,
+    "orange": 0.7719
+  },
+  "p_emolia_c0542__emolia_c0542__X__ga_fear_scream__en": {
+    "ecapa": 0.3932,
+    "orange": 0.686
+  },
+  "p_emolia_c0542__emolia_c0542__X__ga_pain_scream__en": {
+    "ecapa": 0.4852,
+    "orange": 0.7012
+  },
+  "p_emolia_c0542__emolia_c0542__X__ga_sad_cry__en": {
+    "ecapa": 0.5015,
+    "orange": 0.8148
+  },
+  "p_emolia_c0542__emolia_c0542__X__pain_groan__en": {
+    "ecapa": 0.3861,
+    "orange": 0.6196
+  },
+  "p_emolia_c0542__emolia_c0542__X__pain_scream__en": {
+    "ecapa": 0.4781,
+    "orange": 0.8107
+  },
+  "p_emolia_c0542__emolia_c0542__X__sad_crying__en": {
+    "ecapa": 0.4242,
+    "orange": 0.7922
+  },
+  "p_emolia_c0542__emolia_c0542__X__tears__en": {
+    "ecapa": 0.3998,
+    "orange": 0.6964
+  },
+  "p_emolia_c0542__emolia_c0542__X__whimpering__en": {
+    "ecapa": 0.3962,
+    "orange": 0.6795
+  }
+}

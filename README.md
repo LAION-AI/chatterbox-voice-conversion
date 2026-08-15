@@ -272,6 +272,37 @@ These require model retraining to change but are documented for understanding:
 
 5. **GPU memory**: The model requires ~4 GB of GPU memory. If you have multiple GPUs, use the `device` parameter to spread load.
 
+## Expressive Best-of-N conversion (quality × emotion ranking)
+
+Voice conversion is stochastic — the flow-matching decoder starts from Gaussian noise, so every
+run is a different draw. The [`expressive_bestofn/`](./expressive_bestofn) add-on turns that into
+a strength: it **generates many candidates in one batched pass, scores each for emotion, quality
+and speaker/timbre similarity, optionally restores them with SIDON, and ranks them** so the
+result is *as clean as possible while the emotion of the original performance is preserved*.
+
+**▶️ Live demo:** https://tts-agi-chatterbox-expressive-bestofn.static.hf.space &nbsp;·&nbsp;
+**📄 Method:** [`expressive_bestofn/METHOD.md`](./expressive_bestofn/METHOD.md)
+
+How it works, in short:
+
+- **Batched multi-seed generation** — repeat the source content tokens along the batch dim so N
+  candidates come out of a single forward pass (~180 ms/candidate at N=32 vs ~530 ms at N=1).
+- **Scoring** — a frozen [BUD-E-Whisper](https://huggingface.co/laion/BUD-E-Whisper) encoder feeds
+  40 emotion experts ([Empathic-Insight-Voice-Small](https://huggingface.co/laion/Empathic-Insight-Voice-Small))
+  and DNSMOS-distilled quality experts
+  ([Empathic-Insight-Voice-Plus](https://huggingface.co/laion/Empathic-Insight-Voice-Plus));
+  speaker/timbre similarity to the target uses
+  [ECAPA-TDNN](https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb) and the
+  [Orange Speaker-wavLM-tbr](https://huggingface.co/Orange/Speaker-wavLM-tbr) timbre embedding.
+- **SIDON restoration** — optional 48 kHz enhancement
+  ([sarulab-speech/Sidon](https://github.com/sarulab-speech/Sidon),
+  [sidon-v0.1](https://huggingface.co/sarulab-speech/sidon-v0.1)).
+- **Reward** — `z(peak-emotion) + z(Overall-Quality)`, so the winning take is expressive **and**
+  clean. Best-of-N mostly buys cleaner audio at equal emotion; the sweet spot is **N≈8**
+  (~496 GPU-hours per 1M samples with a rank-then-SIDON-the-winner pipeline).
+
+See [`expressive_bestofn/README.md`](./expressive_bestofn/README.md) for the full reproduce steps.
+
 ## Project Structure
 
 ```
@@ -283,6 +314,12 @@ chatterbox-voice-conversion/
 ├── examples/
 │   ├── basic_conversion.py  # Single-file conversion CLI example
 │   └── batch_conversion.py  # Multi-file batch conversion CLI example
+├── expressive_bestofn/      # Best-of-N + scoring + SIDON + reward ranking (add-on)
+│   ├── README.md            # Overview + reproduce steps
+│   ├── METHOD.md            # Detailed what/why/how write-up
+│   ├── scripts/             # The exact pipeline (generate, score, refine, reward, analysis)
+│   ├── results/             # Computed analysis JSON (best-of-k, SIDON effect, reward, GPU-hours)
+│   └── demo/index.html      # Reference copy of the live demo page
 ├── tests/
 │   └── test_conversion.py   # Integration test that verifies end-to-end conversion
 ├── LICENSE                  # Apache 2.0
