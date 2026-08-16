@@ -9,6 +9,15 @@ batched pass**, scores each for **emotion fidelity**, **audio quality**, and **s
 similarity**, optionally **restores** them with **SIDON**, and **ranks** them with a reward that
 rewards takes that are *expressive and clean at the same time*.
 
+### ⭐ Sweet spot: **best-of-8**
+
+Generate **8 candidates** per source. That is the recommended operating point: audio quality is
+already fully saturated at N≈8, it captures **~70%** of the total expressivity gain (out of the
+full 1→32 range), and it costs **¼ of best-of-32**. Going to 16 or 32 only pays off if you are
+specifically mining the most extreme expressive takes — the returns past 8 are a thin, linear-cost
+tail. For maximum efficiency, **rank the 8 candidates first and run SIDON only on the winner**
+(≈496 GPU-hours per 1,000,000 samples; roughly half the cost of restoring all 8).
+
 ### ▶️ Live demo
 **https://tts-agi-chatterbox-expressive-bestofn.static.hf.space**
 

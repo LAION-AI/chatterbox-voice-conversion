@@ -173,8 +173,8 @@ statistic). There is **no sharp knee**; the decay is gradual (+0.10 → +0.09 �
 doubling). Practical guidance:
 
 - **k = 4** already captures ~half the gain — cheapest useful setting.
-- **k = 8** is the recommended sweet spot: quality is fully saturated, ~70% of expressive gain,
-  at ¼ the cost of 32.
+- **⭐ k = 8 is the sweet spot (recommended default).** Quality is fully saturated, ~70% of the
+  expressive gain is captured, at ¼ the cost of best-of-32.
 - **k = 16–32** only pays off if you are specifically mining the most extreme expressive takes;
   cost is linear in k, so 16→32 doubles compute for the last ~13%.
 
