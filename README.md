@@ -1,5 +1,7 @@
 # Chatterbox Voice Conversion
 
+> **New research checkpoint:** [Humaneness Voice Converter](https://huggingface.co/laion/Humaneness-Voice-Converter) is LAION's score-conditioned 40k full-flow continuation of this Chatterbox S3Gen voice-conversion architecture. Its [standalone listening comparison](https://huggingface.co/spaces/laion/Humaneness-Voice-Converter-Demo) shows original source, Vanilla Chatterbox, the 40k model, external converters and optional Best-of-4/8/16. See [`humaneness_voice_converter/`](humaneness_voice_converter/) for tested inference code, training lineage, speed and evaluation caveats. The ordinary `VoiceConverter` API below still loads **upstream Vanilla Chatterbox** unless you explicitly use the new checkpoint and its score-conditioning code.
+
 A Python library for zero-shot voice conversion built on [Resemble AI's Chatterbox](https://github.com/resemble-ai/chatterbox) S3Gen model. Converts the speaker identity of any speech audio to match a target speaker while preserving the original linguistic content and prosody.
 
 ## How It Works

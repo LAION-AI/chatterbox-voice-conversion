@@ -1,0 +1,10 @@
+{
+  "schema": "humaneness-vc-best-of-n-calibration-v1",
+  "source": "186 outputs from 93 noncurated, known-RL-UID-disjoint source cases, two target voices",
+  "formula": "(z(CE) + z(target CAMPPlus cosine) - z(top-two source-emotion MSE))/3",
+  "terms": {
+    "audiobox_ce": {"mean": 6.074259663140902, "std": 0.6133121235795967},
+    "target_camp_cosine": {"mean": 0.7383239832055825, "std": 0.1311638550278033},
+    "top2_emotion_mse": {"mean": 0.3203179569488081, "std": 0.8687445107269725}
+  }
+}

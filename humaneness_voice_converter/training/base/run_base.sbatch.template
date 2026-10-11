@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --job-name=chatterbox-vc-base-lora
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
+#SBATCH --gres=gpu:4
+#SBATCH --cpus-per-task=12
+#SBATCH --time=11:30:00
+# Add your site's --account and --partition directives.
+set -euo pipefail
+ulimit -c 0
+: "${CHATTERBOX_RUN_ROOT:?}"
+: "${CHATTERBOX_S3GEN_WEIGHTS:?}"
+CODE_DIR=${CHATTERBOX_CODE_DIR:-"$(cd "$(dirname "$0")" && pwd)"}
+export MASTER_ADDR
+MASTER_ADDR=$(scontrol show hostnames "$SLURM_JOB_NODELIST" | head -1)
+export MASTER_PORT=$((20000 + SLURM_JOB_ID % 20000))
+srun --nodes=1 --ntasks=4 --ntasks-per-node=4 --gpus-per-task=1 \
+  --kill-on-bad-exit=1 --cpu-bind=none \
+  python -u "$CODE_DIR/train.py" --mode "${CHATTERBOX_BASE_MODE:-smoke}"

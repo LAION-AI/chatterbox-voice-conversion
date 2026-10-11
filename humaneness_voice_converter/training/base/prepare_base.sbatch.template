@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=chatterbox-vc-prepare
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=4
+#SBATCH --gres=gpu:4
+#SBATCH --cpus-per-task=8
+#SBATCH --time=06:00:00
+# Add your site's --account and --partition directives.
+set -euo pipefail
+ulimit -c 0
+: "${CHATTERBOX_RUN_ROOT:?}"
+: "${CHATTERBOX_S3GEN_WEIGHTS:?}"
+CODE_DIR=${CHATTERBOX_CODE_DIR:-"$(cd "$(dirname "$0")" && pwd)"}
+srun --nodes=1 --ntasks=4 --ntasks-per-node=4 --gpus-per-task=1 \
+  --kill-on-bad-exit=1 --cpu-bind=none python -u "$CODE_DIR/prepare.py"

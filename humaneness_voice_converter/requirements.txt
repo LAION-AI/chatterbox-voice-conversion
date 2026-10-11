@@ -1,0 +1,18 @@
+# Research environment snapshot, not a resolver-tested one-line installer.
+# Chatterbox 0.1.7 metadata pins older Torch/Transformers on Python 3.13;
+# install it with --no-deps after installing these tested runtime packages.
+# Install a CUDA-compatible PyTorch wheel for your platform first.
+torch==2.9.1
+torchaudio==2.9.1
+transformers==5.14.1
+numpy==2.3.2
+safetensors==0.8.0
+scipy==1.18.1
+soundfile==0.14.0
+librosa==1.0.0
+huggingface-hub==1.29.0
+s3tokenizer==0.3.0
+diffusers==0.40.0
+conformer==0.3.2
+omegaconf==2.3.1
+resemble-perth==1.0.1
