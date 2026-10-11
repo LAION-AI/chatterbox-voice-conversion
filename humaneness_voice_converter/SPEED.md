@@ -8,7 +8,7 @@ user-facing batched and ranked CLI is `infer.py`.
 ## Hardware and measured scope
 
 - One NVIDIA GH200 120 GB on JUPITER, PyTorch 2.9.1+cu128, Chatterbox 0.1.7,
-  10 flow steps, complete Humaneness 40k checkpoint, target B fixed.
+  10 flow steps, complete Humaneness Voice Converter checkpoint, target B fixed.
 - Three post-warm-up repetitions for each setting; table shows the median
   wall time. The source had 4.27, 6.53 or 14.78 seconds of speech.
 - A row generates **N stochastic takes of the same source/target pair** in a
@@ -26,13 +26,10 @@ user-facing batched and ranked CLI is `infer.py`.
 | --- | --- | ---: | ---: | ---: | ---: |
 | 4.27 s | FP32 | 0.450 s | 0.487 s | 0.614 s | 1.079 s |
 | 4.27 s | BF16 | 0.627 s | 0.627 s | 0.629 s | 0.650 s |
-| 4.27 s | FP8 experiment | 4.205 s | 4.910 s | 4.982 s | 5.067 s |
 | 6.53 s | FP32 | 0.468 s | 0.526 s | 0.831 s | 1.534 s |
 | 6.53 s | BF16 | 0.558 s | 0.605 s | 0.643 s | 0.665 s |
-| 6.53 s | FP8 experiment | 4.373 s | 5.074 s | 5.097 s | 5.038 s |
 | 14.78 s | FP32 | 0.513 s | 0.782 s | 1.479 s | 2.892 s |
 | 14.78 s | BF16 | 0.586 s | 0.628 s | 0.714 s | 1.116 s |
-| 14.78 s | FP8 experiment | 4.730 s | 5.123 s | 5.060 s | 5.202 s |
 
 BF16 is **not universally faster** on this hardware: FP32 is faster for one
 candidate and most four-candidate short/medium clips. BF16 wins clearly for
@@ -88,25 +85,6 @@ reference command, not an optimized persistent server. It does not yet
 implement multi-request batching, source-token caching across unrelated
 requests, compiled kernels, async scoring or streamed output.
 
-## Why FP8 is not the default
-
-On this GH200, we tested TorchAO 0.15 dynamic FP8 activation+weight
-quantization on **352 `Linear` modules in the flow estimator**. Most other
-components, including convolutional decoder paths and vocoder, remained BF16
-autocast. The upstream Chatterbox flow is wrapped by `torch.inference_mode`,
-which TorchAO 0.15 `Float8Tensor` could not execute with: it raised a tensor
-version-counter error. For the experiment only, the benchmark removed the
-affected wrappers and used `no_grad`; this changes runtime overhead and is not
-a drop-in inference patch. Although the quantized outputs passed finite-audio
-and duration checks, this path was roughly **4–10× slower** than BF16 for the
-tested pairs and has not had a matched perceptual-quality audit. Therefore
-the release CLI deliberately does **not** expose FP8. A faster fused FP8
-kernel/compiled model could change this conclusion, but would require a new
-bench and quality comparison.
-
 The [upstream Chatterbox VC BF16/batching recipe](https://github.com/LAION-AI/chatterbox-voice-conversion#speed-optimization-bf16-flow-and-true-gpu-batching)
 uses an RTX 3090 and Vanilla S3Gen; its numbers are separate from the GH200
-40k results here. See [PyTorch's quantized-inference documentation](https://docs.pytorch.org/ao/stable/workflows/inference.html)
-for the supported FP8 Linear configurations and limits. Humaneness 40k does
-not inherit a universal FP8 speedup merely because GH200 hardware supports
-FP8 arithmetic.
+Humaneness Voice Converter results here.
