@@ -36,7 +36,10 @@ user-facing batched and ranked CLI is `infer.py`.
 
 BF16 is **not universally faster** on this hardware: FP32 is faster for one
 candidate and most four-candidate short/medium clips. BF16 wins clearly for
-larger pools. On the 6.53-s example, BF16 N=16 produces 16 candidate streams
+larger pools. The CLI retains BF16 as its default because that is the
+precision used by the evaluated 40k generation path; `--precision fp32` is
+available for latency experiments, but its output quality has not yet been
+audited head-to-head. On the 6.53-s example, BF16 N=16 produces 16 candidate streams
 in 0.665 s; that is 156.9 aggregate candidate-audio seconds per wall second,
 **not** a 156.9× real-time *winner stream*. A single selected winner has
 generation latency of 0.665 s, then needs ranking and delivery.
