@@ -17,7 +17,7 @@ python humaneness_voice_converter/infer.py \
 
 The JUPITER-tested Python 3.13/PyTorch 2.9.1 dependency snapshot is in `requirements.txt`. Chatterbox 0.1.7 has older metadata pins for Python 3.13; install the listed packages first, then `chatterbox-tts==0.1.7 --no-deps`, as detailed in the model card. This is a tested *existing environment*, not a promise that a fresh resolver run works on all platforms.
 
-`REPRODUCING.md` records the precise training data selection, lineage, reward, optimizer/checkpoint schedule, and limitations. `training/` contains the research source snapshots and Slurm scripts; their Scratch paths must be adapted to an equivalent packed data layout. The `research/` scripts recreate the local evaluation and benchmark protocol, not an inference service. Never unpack the corpus into millions of clip files.
+`REPRODUCING.md` records the precise training data selection, lineage, reward, optimizer/checkpoint schedule, and limitations. `training/` contains the research source snapshots and Slurm scripts; their Scratch paths must be adapted to an equivalent packed data layout. The `research/` scripts recreate the local evaluation and benchmark protocol, not an inference service. The refreshed demo selection and packed-audio publisher are in [`research/curate_demo_v2.py`](research/curate_demo_v2.py) and [`research/build_and_publish_demo_v2.py`](research/build_and_publish_demo_v2.py); the public Space manifest records all chosen case IDs. These research scripts expect the JUPITER packed inputs and four completed rank-wise external/Best-of-N evaluations, and require equivalent paths elsewhere. Never unpack the corpus into millions of clip files.
 
 ## Measured listening-set scores
 
